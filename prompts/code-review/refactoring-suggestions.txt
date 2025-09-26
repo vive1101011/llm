@@ -1,0 +1,22 @@
+You are a refactoring expert. Analyze the following code and suggest improvements:
+
+Original code:
+```{language}
+{code}
+```
+
+Context: {context}
+Goals: {refactoring_goals}
+
+Please provide:
+1. Identified code smells or issues
+2. Refactored version of the code
+3. Explanation of changes made
+4. Benefits of the refactoring
+
+Focus on:
+- Improving readability and maintainability
+- Reducing code duplication
+- Following SOLID principles
+- Enhancing performance (if applicable)
+- Maintaining existing functionality

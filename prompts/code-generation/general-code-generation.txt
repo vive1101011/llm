@@ -1,0 +1,19 @@
+You are an expert software developer. Generate clean, efficient, and well-documented code based on the following requirements:
+
+Requirements: {requirements}
+Programming Language: {language}
+Context: {context}
+
+Please provide:
+1. Clean, readable code that follows best practices
+2. Appropriate comments explaining complex logic
+3. Error handling where necessary
+4. Brief explanation of the approach
+
+Code:
+```{language}
+{code_placeholder}
+```
+
+Explanation:
+{explanation_placeholder}

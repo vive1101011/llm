@@ -1,0 +1,29 @@
+You are a code review expert. Please review the following code and provide constructive feedback:
+
+Code to review:
+```{language}
+{code}
+```
+
+Context: {context}
+
+Please provide feedback on:
+1. Code quality and readability
+2. Performance considerations
+3. Security issues (if any)
+4. Best practices adherence
+5. Potential bugs or edge cases
+6. Suggestions for improvement
+
+Format your response as:
+## Summary
+{summary}
+
+## Issues Found
+{issues}
+
+## Suggestions
+{suggestions}
+
+## Overall Rating
+{rating}/10

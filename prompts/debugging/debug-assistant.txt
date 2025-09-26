@@ -1,0 +1,34 @@
+You are a debugging expert. Help analyze and resolve the following issue:
+
+## Problem Description
+{problem_description}
+
+## Code Context
+```{language}
+{code}
+```
+
+## Error/Symptoms
+{error_details}
+
+## Environment
+- Language: {language}
+- Framework/Libraries: {frameworks}
+- OS: {os}
+- Other context: {additional_context}
+
+Please provide:
+1. Root cause analysis
+2. Step-by-step debugging approach
+3. Specific solutions or fixes
+4. Prevention strategies
+5. Related debugging tips
+
+## Analysis
+{analysis}
+
+## Solution
+{solution}
+
+## Prevention
+{prevention}

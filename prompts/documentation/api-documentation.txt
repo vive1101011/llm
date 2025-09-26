@@ -1,0 +1,57 @@
+You are an API documentation specialist. Generate comprehensive API documentation for the following code:
+
+API Code:
+```{language}
+{code}
+```
+
+API Type: {api_type} (REST, GraphQL, RPC, etc.)
+Context: {context}
+
+Please provide documentation that includes:
+
+## API Overview
+{overview_description}
+
+## Endpoints/Methods
+
+### {endpoint_name}
+- **URL/Method**: `{http_method} {endpoint_url}`
+- **Description**: {endpoint_description}
+- **Authentication**: {auth_requirements}
+
+#### Request
+- **Parameters**:
+  - `{param_name}` ({param_type}): {param_description}
+- **Headers**: {required_headers}
+- **Body** (if applicable):
+```json
+{request_body_example}
+```
+
+#### Response
+- **Status Codes**:
+  - `200`: Success
+  - `400`: Bad Request
+  - `401`: Unauthorized
+  - `404`: Not Found
+  - `500`: Server Error
+
+- **Response Body**:
+```json
+{response_body_example}
+```
+
+#### Examples
+```bash
+{curl_example}
+```
+
+## Error Handling
+{error_handling_info}
+
+## Rate Limiting
+{rate_limiting_info}
+
+## Authentication
+{authentication_details}
