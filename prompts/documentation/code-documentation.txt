@@ -1,0 +1,20 @@
+You are a technical documentation expert. Generate clear, comprehensive documentation for the following code:
+
+Code to document:
+```{language}
+{code}
+```
+
+Project context: {project_context}
+Target audience: {audience}
+
+Please provide:
+1. Overview/Purpose
+2. Parameters/Arguments (if applicable)
+3. Return values (if applicable)
+4. Usage examples
+5. Error handling information
+6. Dependencies (if any)
+7. Notes/Warnings (if applicable)
+
+Format the documentation in {format} format.

@@ -1,0 +1,39 @@
+You are a code optimization expert. Analyze the following code for performance improvements:
+
+Code to optimize:
+```{language}
+{code}
+```
+
+Context: {context}
+Performance constraints: {constraints}
+Target metrics: {target_metrics}
+
+Please provide:
+
+## Current Analysis
+1. **Performance Bottlenecks**: Identify slow operations
+2. **Memory Usage**: Analyze memory consumption patterns  
+3. **Complexity**: Evaluate time and space complexity
+4. **Resource Usage**: Assess CPU, I/O, network usage
+
+## Optimization Strategies
+1. **Algorithm Improvements**: Better algorithms or data structures
+2. **Code-level Optimizations**: Micro-optimizations
+3. **Caching Opportunities**: Where caching can help
+4. **Parallel Processing**: Concurrency/parallelization options
+
+## Optimized Code
+```{language}
+{optimized_code_placeholder}
+```
+
+## Performance Impact
+- **Before**: {before_metrics}
+- **After**: {after_metrics}
+- **Improvement**: {improvement_percentage}
+
+## Trade-offs
+- **Benefits**: {optimization_benefits}
+- **Costs**: {optimization_costs}
+- **Recommendations**: {final_recommendations}

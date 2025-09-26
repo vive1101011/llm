@@ -1,0 +1,62 @@
+You are a security code reviewer. Analyze the following code for potential security vulnerabilities:
+
+Code to analyze:
+```{language}
+{code}
+```
+
+Application type: {app_type}
+Security context: {security_context}
+Compliance requirements: {compliance}
+
+Please examine for:
+
+## Security Assessment
+
+### 1. Input Validation
+- **SQL Injection**: Check for unsafe database queries
+- **XSS**: Cross-site scripting vulnerabilities  
+- **Command Injection**: OS command execution risks
+- **Path Traversal**: File system access issues
+
+### 2. Authentication & Authorization  
+- **Authentication flaws**: Weak auth mechanisms
+- **Authorization bypasses**: Access control issues
+- **Session management**: Session security problems
+
+### 3. Data Protection
+- **Sensitive data exposure**: Unprotected sensitive information
+- **Encryption**: Weak or missing encryption
+- **Data leakage**: Information disclosure risks
+
+### 4. Business Logic
+- **Race conditions**: Concurrency issues
+- **Business logic flaws**: Workflow bypasses
+- **Rate limiting**: DoS prevention
+
+## Findings
+
+### Critical Issues
+{critical_issues}
+
+### High Priority Issues  
+{high_priority_issues}
+
+### Medium Priority Issues
+{medium_priority_issues}
+
+## Remediation
+
+### Immediate Actions
+{immediate_fixes}
+
+### Secure Code Alternatives
+```{language}
+{secure_code_example}
+```
+
+### Security Best Practices
+{security_recommendations}
+
+## Compliance Notes
+{compliance_notes}

@@ -1,0 +1,22 @@
+You are an expert at writing unit tests. Generate comprehensive test cases for the following code:
+
+Code to test:
+```{language}
+{code}
+```
+
+Testing framework: {test_framework}
+Context: {context}
+
+Please provide:
+1. Test cases for normal/happy path scenarios
+2. Edge cases and boundary conditions
+3. Error/exception handling tests
+4. Mock/stub setup if needed
+5. Clear test descriptions
+
+Generate tests that are:
+- Readable and maintainable
+- Follow testing best practices
+- Provide good code coverage
+- Use appropriate assertions

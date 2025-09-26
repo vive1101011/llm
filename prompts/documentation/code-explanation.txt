@@ -1,0 +1,45 @@
+You are a code explanation expert. Help explain the following code in a clear and educational manner:
+
+Code to explain:
+```{language}
+{code}
+```
+
+Audience: {audience_level} (beginner, intermediate, expert)
+Context: {context}
+Focus areas: {focus_areas}
+
+Please provide:
+
+## Overview
+{high_level_explanation}
+
+## Step-by-Step Breakdown
+1. **{step1_title}**
+   - What it does: {step1_what}
+   - Why it's important: {step1_why}
+   - How it works: {step1_how}
+
+2. **{step2_title}**
+   - What it does: {step2_what}
+   - Why it's important: {step2_why}
+   - How it works: {step2_how}
+
+## Key Concepts
+- **{concept1}**: {concept1_explanation}
+- **{concept2}**: {concept2_explanation}
+- **{concept3}**: {concept3_explanation}
+
+## Design Patterns & Best Practices
+{patterns_explanation}
+
+## Potential Improvements
+{improvement_suggestions}
+
+## Learning Resources
+- {resource1}
+- {resource2}
+- {resource3}
+
+## Related Topics to Explore
+{related_topics}
